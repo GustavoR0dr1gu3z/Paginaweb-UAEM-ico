@@ -1,0 +1,54 @@
+.contacto{
+    background: #838383;
+}
+
+.uno{
+    width: 200px;
+}
+
+.correo{
+    margin: none;
+}
+
+img{
+    width: 300px;
+}
+
+li{
+    list-style: none;
+}
+
+.nav > li{
+    float: left;
+}
+.nav li a{
+    background: #f6f6f6;
+    color: #838383;
+    text-decoration: none;
+    padding: 10px 12px;
+    display: block;
+    font-family: 14px cursive;    
+}
+
+.nav li a:hover{
+    background: #f6f6f6;
+}
+
+.nav li ul{
+    display: none;
+    position: absolute;
+    min-width: 120px;
+}
+
+.nav li:hover > ul{
+    display: block;
+}
+
+body{
+    background-image: url("Imagenes/ico.jpeg");
+    background-size: cover ;
+}
+
+.egre{
+    color: #f6f6f6
+}
